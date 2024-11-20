@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A small Wordle Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>WHAM Wordle Game</h1>
+    <p>Guess the 4-letter word!</p>
+    <input type="text" id="guess-input" maxlength="4" placeholder="Enter your guess">
+    <button id="submit-button">Submit Guess</button>
+    <p id="result-message"></p>
+  </div>
+  <div id="guesses-container"></div>
+
+
+  <!-- Hidden audio element -->
+  <audio id="wham-audio" src="assets/last-christmas.mp3" preload="auto"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
