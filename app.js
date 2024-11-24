@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const targetWord = "WHAM"; // The correct word
+  const targetWord = "TRAP"; // The correct word
   const maxAttempts = 6; // Number of allowed guesses
   const guessesContainer = document.getElementById("guesses-container");
   const inputField = document.getElementById("guess-input");
